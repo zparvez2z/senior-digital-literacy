@@ -469,7 +469,8 @@ This project will be released under MIT License with comprehensive documentation
 
 ## 📧 Contact
 
-**Developer:** Zillur Parvez  
+**Developer:** Parvez Zamil  
+**Email:** parvez.zamil97@gmail.com  
 **GitHub:** [@zparvez2z](https://github.com/zparvez2z)  
 **Project:** MSc HCI Application Portfolio  
 **Institution:** University of Siegen (Application in progress)
