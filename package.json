@@ -1,0 +1,43 @@
+{
+  "name": "senior-digital-literacy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-Assisted Digital Literacy Training App for Seniors",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:web\" \"npm run dev:mobile\" \"npm run dev:backend\"",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:mobile": "cd apps/mobile && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:web && npm run build:mobile",
+    "build:web": "cd apps/web && npm run build",
+    "build:mobile": "cd apps/mobile && npm run build:android && npm run build:ios",
+    "test": "npm run test:web && npm run test:mobile && npm run test:backend",
+    "test:web": "cd apps/web && npm test",
+    "test:mobile": "cd apps/mobile && npm test",
+    "test:backend": "cd backend && npm test",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
