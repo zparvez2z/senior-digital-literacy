@@ -6,14 +6,54 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Portfolio Project for MSc HCI Application - University of Siegen**  
+> **Bridging the digital divide for seniors through accessible, AI-assisted learning**
+
 **Status:** Functional MVP with Modern UI  
 **Started:** October 2025  
 **GitHub:** [github.com/zparvez2z/senior-digital-literacy](https://github.com/zparvez2z/senior-digital-literacy)
 
 ---
 
-## 📸 Screenshots
+## 🎯 The Problem
+
+**37% of adults aged 65+ never use the internet**, facing barriers in an increasingly digital world. This digital divide isn't just about access—it's about design:
+
+- 📱 Standard apps have **small text and low contrast** that strain aging eyes
+- 🖱️ **Tiny touch targets** (44px) are difficult for users with arthritis or tremors
+- 🧩 **Complex interfaces** overwhelm declining working memory
+- 😰 **Fear of mistakes** prevents exploration and learning
+- 🗣️ **Technical jargon** creates comprehension barriers
+
+**The result:** Millions of seniors are excluded from telehealth, online banking, video calls with family, and social participation.
+
+## 💡 Our Solution
+
+An **AI-powered, accessibility-first digital literacy platform** that meets seniors where they are:
+
+- ♿ **WCAG 2.2 AAA Compliant:** 7:1 contrast ratios, 56px touch targets—designed for age-related impairments
+- 🤖 **Empathetic AI Companion:** Patient, encouraging support powered by Google Gemini 2.5 Flash
+- 🎨 **Modern, Non-Patronizing Design:** Contemporary glassmorphism UI that respects users' dignity
+- 📊 **Progress Visualization:** Gamification elements that build confidence and celebrate achievements
+- 🔊 **Voice Support:** Hands-free interaction for users with motor impairments
+- 🌐 **Plain Language:** 8th-grade reading level, no technical jargon
+
+### 🎯 Impact Goals
+
+**For Seniors:**
+- � Master essential digital skills (email, video calls, online banking, telehealth)
+- � Build technology confidence and reduce anxiety
+- 🤝 Reduce social isolation through digital connections
+- � Access critical online services independently
+
+**For Society:**
+- 📊 Reduce the 37% internet non-usage rate among seniors
+- ♿ Demonstrate that accessibility and modern design can coexist
+- 🔬 Provide evidence-based design patterns for aging populations
+- 🌍 Create open-source resources for the research community
+
+---
+
+## � Screenshots
 
 <table>
   <tr>
@@ -28,32 +68,7 @@
 
 ---
 
-## 🎯 Project Overview
-
-An **AI-powered, accessibility-first digital literacy platform** designed to empower seniors (65+) in developing technology skills through personalized, adaptive learning experiences. This project demonstrates the intersection of **human-computer interaction research**, **accessibility engineering**, and **participatory design methodology** aligned with University of Siegen's ITALG research group.
-
-### ✨ Key Features
-
-- 🤖 **AI Companion:** Empathetic support powered by Google Gemini 2.5 Flash
-- ♿ **WCAG 2.2 AAA Compliant:** 7:1 contrast ratios, 56px touch targets, full keyboard navigation
-- 🎨 **Modern Glassmorphism UI:** Contemporary design without sacrificing accessibility
-- 📊 **Progress Tracking:** Visual dashboards with gamification elements
-- 🔊 **Voice Support:** Google Cloud Speech API for hands-free interaction
-- 🌐 **Multilingual Ready:** Architecture supports future i18n expansion
-- 📱 **Responsive Design:** Mobile-first approach with tablet/desktop optimization
-
-### 🎓 Academic Contribution
-
-This platform serves as a foundation for **master's thesis research** exploring how AI-assisted learning can support older adults' autonomy while maintaining user agency—a central question in ITALG's research on caring communities. The project applies **Praxlabs participatory design methodology** and plans user testing with 15 seniors (65-85 years) to validate accessibility features and AI assistant effectiveness.
-
-**Research Alignment:**
-- ITALG's ACCESS project (digital literacy for older adults)
-- WERTE.IT project (IT accessibility standards)
-- CoCre-HIT project (co-creative health IT development)
-
----
-
-## 🚀 Quick Start
+## �🚀 Quick Start
 
 ### Prerequisites
 - **Node.js** 18.0+ and npm 9.0+
@@ -412,42 +427,47 @@ npm run pa11y
 
 ---
 
-## 🤝 Support
+## 🤝 Get in Touch
 
-### For Developers
-- **Issues:** GitHub Issues
-- **Slack:** #senior-digital-literacy
-- **Email:** dev@seniordigitalliteracy.com
+Have questions, suggestions, or want to contribute? Feel free to:
 
-### For Users (Future)
-- **Help Center:** help.seniordigitalliteracy.com
-- **AI Assistant:** In-app 24/7
-- **Phone:** 1-800-SENIORS
-- **Email:** support@seniordigitalliteracy.com
+- 📧 **Email:** parvez.zamil97@gmail.com
+- 🐙 **GitHub Issues:** [Report bugs or request features](https://github.com/zparvez2z/senior-digital-literacy/issues)
+- 💬 **Discussions:** [Start a conversation](https://github.com/zparvez2z/senior-digital-literacy/discussions)
 
 ---
 
-## � Documentation
+## 📚 Documentation
 
 - 📄 **[Portfolio Case Study](../msc-hci-application/HCI_APPLICATION_PORTFOLIO_v3.md)** - Complete academic portfolio (30+ pages)
 - 📄 **[Accessibility Testing Guide](apps/web/ACCESSIBILITY.md)** - WCAG 2.2 AAA compliance documentation
 - 🎨 **[Design System](docs/design-system.md)** - Component library and style guide (coming soon)
 - 🏗️ **[Architecture](docs/architecture.md)** - System design and technical decisions (coming soon)
 
-## 🔬 Research Context
+## 🔬 Research & Development
 
-This project is part of a **Master's application portfolio** for the HCI program at University of Siegen, demonstrating:
+### Evidence-Based Design
 
-1. **Technical Competency:** Full-stack development with modern web technologies
-2. **Accessibility Expertise:** WCAG 2.2 AAA implementation exceeding legal requirements
-3. **UX Research:** Evidence-based design decisions grounded in HCI literature
-4. **Participatory Design:** Planned Praxlabs methodology for co-creation with seniors
-5. **Social Impact:** Addressing digital exclusion affecting 37% of seniors aged 65+
+Every design decision is grounded in HCI research and accessibility science:
 
-**Planned Research Contributions:**
-- Applying Praxlabs to AI-assisted learning contexts (targeting CHI 2026)
-- Empirical validation of WCAG AAA benefits for older adults (ASSETS 2026)
-- Exploring tensions between AI support and user autonomy (DIS 2026)
+- **Visual Accessibility:** Enhanced contrast ratios (7:1) based on research showing standard WCAG AA insufficient for aging eyes
+- **Motor Accessibility:** 56px touch targets (27% larger than standards) based on studies of arthritis and tremor impacts
+- **Cognitive Accessibility:** Simplified navigation based on working memory research for older adults
+- **Emotional Design:** AI companion personality informed by self-efficacy theory and technology anxiety studies
+
+### Planned User Testing
+
+- **Participants:** 15 seniors aged 65-85 years
+- **Methods:** Mixed-methods evaluation (quantitative metrics + qualitative interviews)
+- **Metrics:** System Usability Scale (target >70), task completion rates (target >80%), self-efficacy surveys
+- **Approach:** Participatory design workshops inspired by practice-based co-creation methodologies
+
+### Future Research Directions
+
+- How does AI assistance impact learning autonomy for older adults?
+- Can WCAG 2.2 AAA compliance improve learning outcomes vs. AA standards?
+- What design patterns best support intergenerational knowledge transfer?
+- How do seniors appropriate new technologies into daily routines over time?
 
 ## � License
 
@@ -461,19 +481,19 @@ This project will be released under MIT License with comprehensive documentation
 
 ## 🙏 Acknowledgments
 
-- **University of Siegen ITALG** for research framework and inspiration
-- **W3C** for WCAG 2.2 AAA guidelines
+- **W3C** for WCAG 2.2 AAA guidelines and accessibility standards
 - **Google** for Gemini API and Cloud services
 - **Open source community** for accessibility tools (axe-core, Pa11y, ESLint jsx-a11y)
-- **Planned:** Senior participants in user testing (Phase 4)
+- **Seniors and caregivers** who will participate in user testing and provide invaluable feedback
+- **HCI research community** for evidence-based design patterns for aging populations
 
 ## 📧 Contact
 
 **Developer:** Parvez Zamil  
 **Email:** parvez.zamil97@gmail.com  
 **GitHub:** [@zparvez2z](https://github.com/zparvez2z)  
-**Project:** MSc HCI Application Portfolio  
-**Institution:** University of Siegen (Application in progress)
+
+**Interested in collaboration, feedback, or contributing?** Reach out via email or GitHub issues!
 
 ---
 
