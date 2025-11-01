@@ -437,14 +437,7 @@ Have questions, suggestions, or want to contribute? Feel free to:
 
 ---
 
-## 📚 Documentation
-
-- 📄 **[Portfolio Case Study](../msc-hci-application/HCI_APPLICATION_PORTFOLIO_v3.md)** - Complete academic portfolio (30+ pages)
-- 📄 **[Accessibility Testing Guide](apps/web/ACCESSIBILITY.md)** - WCAG 2.2 AAA compliance documentation
-- 🎨 **[Design System](docs/design-system.md)** - Component library and style guide (coming soon)
-- 🏗️ **[Architecture](docs/architecture.md)** - System design and technical decisions (coming soon)
-
-## 🔬 Research & Development
+##  Research & Development
 
 ### Evidence-Based Design
 
