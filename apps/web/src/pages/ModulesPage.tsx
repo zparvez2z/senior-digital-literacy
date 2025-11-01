@@ -1,82 +1,12 @@
 import React from 'react';
 import { Box, Typography, Container, Grid } from '@mui/material';
 import { ModuleCard } from '../components/ModuleCard';
-
-// Mock data for learning modules
-const modules = [
-  {
-    id: 1,
-    title: 'Email Basics',
-    description: 'Learn to send, receive, and organize emails safely',
-    difficulty: 'Beginner',
-    estimatedTime: '2 hours',
-    progress: 45,
-    icon: '📧',
-    lessons: 8,
-    color: '#0052A3',
-  },
-  {
-    id: 2,
-    title: 'Video Calls',
-    description: 'Connect with family and friends through video chat',
-    difficulty: 'Beginner',
-    estimatedTime: '1.5 hours',
-    progress: 20,
-    icon: '📹',
-    lessons: 6,
-    color: '#007A00',
-  },
-  {
-    id: 3,
-    title: 'Online Banking',
-    description: 'Manage your finances securely from home',
-    difficulty: 'Intermediate',
-    estimatedTime: '3 hours',
-    progress: 0,
-    icon: '🏦',
-    lessons: 10,
-    color: '#5B21B6',
-  },
-  {
-    id: 4,
-    title: 'Social Media',
-    description: 'Stay connected and share moments with loved ones',
-    difficulty: 'Beginner',
-    estimatedTime: '2.5 hours',
-    progress: 60,
-    icon: '🌐',
-    lessons: 9,
-    color: '#0891B2',
-  },
-  {
-    id: 5,
-    title: 'Online Shopping',
-    description: 'Shop safely and conveniently from your device',
-    difficulty: 'Intermediate',
-    estimatedTime: '2 hours',
-    progress: 10,
-    icon: '🛒',
-    lessons: 7,
-    color: '#DC2626',
-  },
-  {
-    id: 6,
-    title: 'Health Services',
-    description: 'Access telehealth and manage medical appointments',
-    difficulty: 'Intermediate',
-    estimatedTime: '2.5 hours',
-    progress: 0,
-    icon: '🏥',
-    lessons: 8,
-    color: '#EA580C',
-  },
-];
+import { modulesData } from '../data/modulesData';
 
 export const ModulesPage: React.FC = () => {
   return (
     <Container maxWidth="lg">
       <Box sx={{ py: 4 }}>
-        {/* Page Header */}
         <Box sx={{ mb: 4 }}>
           <Typography 
             variant="h1" 
@@ -105,7 +35,7 @@ export const ModulesPage: React.FC = () => {
 
         {/* Modules Grid */}
         <Grid container spacing={3}>
-          {modules.map((module) => (
+          {modulesData.map((module) => (
             <Grid item xs={12} sm={6} md={4} key={module.id}>
               <ModuleCard module={module} />
             </Grid>

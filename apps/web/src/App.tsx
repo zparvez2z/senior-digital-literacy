@@ -6,6 +6,7 @@ import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { ModulesPage } from './pages/ModulesPage';
+import { ModuleDetailPage } from './pages/ModuleDetailPage';
 import { LessonPage } from './pages/LessonPage';
 import { ProgressPage } from './pages/ProgressPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -36,6 +37,14 @@ function App() {
             <ProtectedRoute>
               <Layout>
                 <ModulesPage />
+              </Layout>
+            </ProtectedRoute>
+          } />
+          
+          <Route path="modules/:id" element={
+            <ProtectedRoute>
+              <Layout>
+                <ModuleDetailPage />
               </Layout>
             </ProtectedRoute>
           } />
