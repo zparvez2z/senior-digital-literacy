@@ -14,6 +14,11 @@ export default defineConfig({
       '@shared': resolve(__dirname, '../../shared'),
     },
   },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./src/test/setup.ts'],
+  },
   server: {
     port: 5173,
     proxy: {

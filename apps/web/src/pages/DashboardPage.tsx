@@ -1,8 +1,10 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Paper } from '@mui/material';
+import { Box, Typography, Container, Grid, Paper, Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import { useAppSelector } from '../store/store';
 
 export const DashboardPage: React.FC = () => {
+  const navigate = useNavigate();
   const { user } = useAppSelector((state) => state.auth);
   const { totalProgress, completedLessons } = useAppSelector(
     (state) => state.learning
@@ -43,9 +45,22 @@ export const DashboardPage: React.FC = () => {
               <Typography variant="h2" gutterBottom>
                 Continue Learning
               </Typography>
-              <Typography variant="body1">
-                Your personalized learning path is ready!
+              <Typography variant="body1" sx={{ mb: 3 }}>
+                Your personalized learning path is ready! Browse available modules and continue building your digital skills.
               </Typography>
+              <Button
+                variant="contained"
+                size="large"
+                onClick={() => navigate('/modules')}
+                sx={{
+                  minHeight: '56px',
+                  fontSize: '1.125rem',
+                  fontWeight: 700,
+                  px: 4,
+                }}
+              >
+                Browse Learning Modules
+              </Button>
             </Paper>
           </Grid>
         </Grid>
